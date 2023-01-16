@@ -24,6 +24,8 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World!/n')
 });
+// shows in the console what is running 
 server.listen(port, hostname, () => {
     console.log(`server running at http://${hostname}:${port}/`);
 });
+// test to relearn commits through github for best practices
